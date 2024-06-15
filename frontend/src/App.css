@@ -1,0 +1,94 @@
+.completed {
+  text-decoration: line-through;
+}
+
+.button-link {
+  border: none;
+  cursor: pointer;
+  color: hotpink;
+  background: transparent;
+}
+
+.button-link:hover {
+  text-decoration: underline;
+}
+
+.button-link:focus {
+  outline: none;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  top: 50% !important;
+  left: 50% !important;
+  right: initial !important;
+  bottom: initial !important;
+  min-width: 700px;
+  max-width: 500px;
+  max-height: 600px;
+  transform: translate(-50%, -50%);
+  padding: 0px !important;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 250ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+
+button.fa {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+}
+
+button.fa-edit {
+  padding-left: 10px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+button.fa-trash {
+  padding: 0 10px 5px;
+}
+
+th {
+  min-width: 140px;
+  cursor: pointer;
+}
+
+th p.sort-by {
+  position: relative;
+}
+th > p.sort-by:before,
+th > p.sort-by:after {
+  border: 4px solid transparent;
+  content: "";
+  display: block;
+  height: 0;
+  right: 5px;
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+th > p.sort-by:before {
+  border-bottom-color: #666;
+  margin-top: -9px;
+}
+th > p.sort-by:after {
+  border-top-color: #666;
+  margin-top: 1px;
+}
