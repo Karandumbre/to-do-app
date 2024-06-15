@@ -1,5 +1,4 @@
 
-https://github.com/Karandumbre/to-do-app/assets/40163773/d3189edc-094d-41eb-906b-c803a0782f43
 # Todo App
 
 This project is a full-stack Todo application with a React frontend and a Node.js backend, using MongoDB as the database. The app allows users to add, edit, delete, and mark tasks as done.
